@@ -1,5 +1,3 @@
-var price , crust_price, topping_price ;
-let total = 0;
 function Getpizza( name,size,crust,topping, total ){
   this.name = name;
   this.size = size;
@@ -7,15 +5,8 @@ function Getpizza( name,size,crust,topping, total ){
   this.topping = topping;
   this.total = total;
 }
-
-
 // proceed button
 $(document).ready(function(){
-  // $("button.proceed").click(function(){
-  //   $("button.proceed").hide();
-  //   $("#information").hide();
-  //   $("div.choise").slideDown(1000);
-  // });
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
@@ -143,9 +134,7 @@ $(document).ready(function(){
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');
       console.log(newOrder);
-      
-      
-
+     
     });
     // Checkout button
     $("button#checkout").click(function(){ 

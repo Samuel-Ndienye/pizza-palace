@@ -104,11 +104,23 @@ margin-top: 5%;
   top: 90%;
   margin-left:-20px;
 }
+#final-order{
+  background-color: yellow;
+}
+#sp{
+  background-color: yellow;
+}
+#ad{
+  background-color: yellow;
+}
+#home{
+  background-color: yellow;
+}
+#checkout{
+  background-color: yellow;
+}
 .order h2{
   text-align: center;
-}
-#variety{
-  padding-top: 30px;
 }
 .order{
   background-size: cover;
@@ -118,7 +130,7 @@ margin-top: 5%;
   padding-bottom: 4%;
 }
 .order-overlay{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color:peru;
   margin-left: 2%;
   margin-right: 2%;
   padding-bottom: 20px;
