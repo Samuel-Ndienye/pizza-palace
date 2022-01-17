@@ -165,9 +165,9 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliveryamount= checkoutTotal+150;
-      console.log("You will pay KSH. "+deliveryamount+" on delivery");
-      $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
+      let deliceryamount= checkoutTotal+150;
+      console.log("You will pay sh. "+deliceryamount+" on delivery");
+      $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
 
     // when one clicks place order button
@@ -177,15 +177,15 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliveryamount= checkoutTotal+150;
-      console.log("Final Bill is: "+deliveryamount);
+      let deliceryamount= checkoutTotal+150;
+      console.log("Final Bill is: "+deliceryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
       let location = $("input#location").val();
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliveryamount);
+        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
       }
