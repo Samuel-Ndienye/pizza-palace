@@ -48,12 +48,11 @@ nav .navbar{
 }
 
 .landing{
-  background-image: url("images/download\ \(3\).jpeg");
+  background-image: url("images/images.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:fixed;
-  padding-bottom: 20px;
+  background-attachment:scroll;
   position: relative;
   overflow-x: hidden;
 }
@@ -90,11 +89,7 @@ nav .navbar{
 
 }
 .about-pic {
-  background-color: indianred;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
+margin-top: 5%;
 }
 #about-us .content{
   padding: 65px 50px 85px;
@@ -103,6 +98,7 @@ nav .navbar{
   float:right;
   text-align: justify;
   overflow-x: hidden;
+  font-size: 24px;
 }
 .d-flex{
   display: flex !important;
