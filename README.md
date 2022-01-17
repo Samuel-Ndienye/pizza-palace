@@ -5,7 +5,7 @@
 * This is a web application for pizza palace which is a pizza selling venture, that shows details about the services and different pizza they sell, their menu and also allows customers to order online for their preferred pizza and also allows them to input a location which they would love the pizza to be delivered to.
 ## Link to Website
 * Click on the link provided below to view the site.
-* 
+* https://samuel-ndienye.github.io/pizza-palace/
 ## Setup instructions
 * Access to internet
 * Either smartphone or a computer
