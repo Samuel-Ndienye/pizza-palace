@@ -48,7 +48,7 @@ nav .navbar{
 }
 
 .landing{
-  background-image: url("../images/slider2.jpg");
+  background-image: url("images/slider2.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ nav .navbar{
 
 }
 .about-pic {
-  background-color: #ffa500;
+  background-color: indianred;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -98,7 +98,7 @@ nav .navbar{
 #about-us .content{
   padding: 65px 50px 85px;
   width: 100%;
-  background-color: #ffa500;
+  background-color: indianred;
   float:right;
   text-align: justify;
   overflow-x: hidden;
